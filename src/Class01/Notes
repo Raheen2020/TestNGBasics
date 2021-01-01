@@ -1,0 +1,20 @@
+TestNG is annotation based tools/frameworks
+
+@Test - is a main annotation and it marks our method as Test method
+
+TestNg has annotation for precondition that is define with @Before(method, class)
+TestNg has annotation for postcondition that is define with @After(method, class)
+
+US 17667 Error message “Invalid credentials” should be displayed when user enters invalid credentials
+
+TestNG Parameters:
+
+- priority
+    priority = 0 --> is set by default
+    priority = 1 --> we are defining a priority of the test
+- enabled
+    enabled = true --> is a default behaviour
+    enabled = false --> if we want to skip specific test
+- dependsOn
+    we can create Test methods that will depend on others.
+    In case of failure depended method will be skipped/ignored from the execution

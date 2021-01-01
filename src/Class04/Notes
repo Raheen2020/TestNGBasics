@@ -1,0 +1,22 @@
+Class 4
+
+DataProvider - allow to perform DDT (data driven testing)
+    testing same functionality with different sets of data
+    data and code are independent. If make any changes in the data our code in test does not get affected
+
+groups in TestNG - allow to group test cases:
+        based on type of testing (smoke, regression, database etc)
+        based on the functionality( login, search, payment etc)
+        based on sprint (sprint5, sprint 6, sprint7 etc )
+
+Listeners - is feature that listens/tracking to any events that happens during test execution:
+        test starts
+        test pass
+        test fail
+        test skipped
+        test finished
+
+How to implement
+    1. Create a Listener class that will implement ITestListener interface
+    2. Provide implementation to the methods you want
+    3. configure xml file by adding <listener>

@@ -1,0 +1,14 @@
+Assertions in TestNG (validation)
+
+- (Hard Assertion) Assert Class
+    Assert.assertTrue
+    Assert.assertEquals
+- (Soft Assertion) -
+    SoftAssert softAsert=new SoftAssert();
+    Soft assert collect all failures but does not throw an exception
+    at the end we need to call method .assertAll();
+
+To format
+
+on Mac: option+command+L
+on Windows: ctrl + alt + L

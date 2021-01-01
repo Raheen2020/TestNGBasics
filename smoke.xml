@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="2">
+    <test verbose="2" preserve-order="true" name="Parallel Test1" >
+        <classes>
+            <class name="Class01.Logintest"/>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Parallel Test2">
+        <classes>
+            <class name="Class02.SoftAssertionDemo">
+            </class>
+        </classes>
+    </test>
+</suite>
